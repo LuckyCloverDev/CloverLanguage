@@ -1,0 +1,50 @@
+Precedence Rules
+______________________
+Assignment			-	=, +=, -=, *=, /=, %=
+Conditional			-	? :
+Logical				-	&&, ||
+Relational			-	==, !=, <, <=, >=, >, instanceof
+Arithmetic			-	*, /, +, -, %
+Unary Prefix		-	++, --, +, -, !, ~, (type)
+Unary Suffix		-	++, --
+Ultimate			-	(), []
+______________________
+
+Conditionals and Loops
+______________________
+if (e) s
+if (e) s1 else e2
+while (e) s
+for (...) s
+switch (e) {...}
+do s while (e)
+______________________
+Data Types
+______________________
+	Atomic Types
+	______________________
+	int				-	int a = 1
+	float			-	float a = 3.14
+	char			-	char a = 'a'
+	str				-	str a = "value"
+				array of chars, same as "array a = char['v', 'a', 'l', 'u', 'e']"
+	bool			-	bool a = true
+				true = 1, false = 0
+	null, empty		-	int a = empty, array a = empty
+				creates an empty var, value of -1 if operated on
+	______________________
+	Compound Types
+	______________________
+	array			-	array a = int(3) OR array a = int[0, 1, 2]
+							array b = array[int[0, 1, 2], str["a", "b", "c"]]
+	dict			-	dict a = {"a" : 0, "b" : "", "c" : int[3]}
+	class			-	class a (b, ...) = {} 
+	______________________
+	Domain Specific Types
+	______________________
+	file			-	file a = write("Test text")
+	var				-	var a = read(FILE)
+				dynamic var-type for reading files into, auto-defines var type
+	vec2			-	vector2 a = (1, 1)
+	vec3			-	vector3 a = (1, 1, 1)
+
