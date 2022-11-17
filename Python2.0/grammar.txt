@@ -47,4 +47,5 @@ ______________________
 				dynamic var-type for reading files into, auto-defines var type
 	vec2			-	vector2 a = (1, 1)
 	vec3			-	vector3 a = (1, 1, 1)
+	window			-	window a = window(x_size, y_size)
 
